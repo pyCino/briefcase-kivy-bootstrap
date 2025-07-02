@@ -1,0 +1,38 @@
+# Build artifacts - NEVER commit these to GitHub
+dist/
+build/
+*.egg-info/
+
+# Python bytecode cache
+__pycache__/
+*.py[co]
+*.pyo
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Testing
+.coverage
+.pytest_cache/
+htmlcov/
+
+# MyPy
+.mypy_cache/
+
+# Local development
+.tox/
+.cache/ 
