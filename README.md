@@ -9,7 +9,7 @@ This plugin adds Kivy as a selectable GUI framework when creating new Briefcase 
 ## Installation
 
 ```bash
-pip install briefcase-kivy-bootstrap
+pip install git+https://github.com/pyCino/briefcase-kivy-bootstrap.git
 ```
 
 ## Usage
